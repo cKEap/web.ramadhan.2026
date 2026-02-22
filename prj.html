@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="prj.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="header" data-aos="fade-down">
+            <h1>Ramadhan</h1>
+            
+         <nav>
+             <ul>
+                <li class="active"><a href="#home" >Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#info">Info</a></li>
+                <li><a href="#timetable">Timetable</a></li>
+            </ul>
+         </nav>
+    </div>
+
+    <div class="Home" id="home">
+        <div class="oo">
+        <h2>MARHABAN YA RAMADHAN</h2>
+
+        <p> <span class="p3">Marhaban Ya Ramadhan</span>
+            <br>
+           <span class="p2">Bulan yang penuh berkah telah tiba</span>
+           <br>
+           <span class="p1">"Semoga Ramadhan kali ini lebih bermakna"</span> 
+        </p>
+        </div>
+        
+         <div class="img">
+            <img data-aos="zoom-in" class="gg" src="https://i.pinimg.com/736x/f2/ce/d5/f2ced58cfc97d12712dae94941317b96.jpg" alt="Bukber" width="200" height="250">
+       </div>
+    </div>
+    <div class="About" id="about">
+        <p class="teks" data-aos="fade-left">
+        Marhaban ya Ramadan 🌙✨ Bulan penuh berkah akhirnya tiba,
+        <br>
+         membawa kesempatan untuk memperbaiki diri, memperbanyak doa, dan mendekatkan hati kepada Allah.
+         <br>
+          Semoga di bulan suci ini kita diberi kekuatan untuk menahan diri, melatih kesabaran,
+          <br>
+           dan menjadi pribadi yang lebih baik dari sebelumnya, 
+           <br>
+           serta semoga setiap doa yang dipanjatkan dikabulkan dan setiap langkah kebaikan dilipatgandakan pahalanya.
+         </p>
+      <p class="teks1" data-aos="fade-right">
+        Keutamaan bulan Ramadan adalah karena bulan ini penuh dengan rahmat, ampunan, dan keberkahan dari Allah.
+        <br>
+         Pada bulan ini pahala amal ibadah dilipatgandakan, dosa-dosa diampuni bagi yang bersungguh-sungguh bertaubat.
+         <br>
+          dan terdapat malam istimewa yaitu Lailatul Qadar✨yang lebih baik dari seribu bulan.
+          <br>
+           Selain itu, Ramadan melatih kesabaran, meningkatkan ketakwaan, serta menumbuhkan rasa peduli dan empati kepada sesama melalui puasa dan sedekah.
+      </p>
+    </div>
+    
+    <div class="Info"  id="info" data-aos="flip-right">
+        <div class="box hg">
+            <h3>Sahur</h3>
+            <img src="https://i.pinimg.com/736x/67/40/00/6740008be8b88c2d932a9daed378be56.jpg" alt="sahur" width="300" height="300">
+            <br>
+            <p>Sahur adalah awal keberkahan di bulan Ramadhan. Memberi energi untuk berpuasa sekaligus mempererat kebersamaan keluarga. </p>
+        </div>
+
+        <div class="box jg">
+            <h3>Tarawih</h3>
+            <img src="https://i.pinimg.com/1200x/74/3d/09/743d093ace93920a0af53e35ff8339c0.jpg" alt="tarawih" width="300" height="300">
+            <br>
+            <p>Salat tarawih adalah ibadah malam yang hanya ada di bulan Ramadan. Dilaksanakan dengan penuh kekhusyukan, tarawih membuat suasana Ramadan terasa lebih damai dan bermakna.</p>
+        </div>
+
+        <div class="box kg">
+            <h3>Bersedekah</h3>
+            <img src="https://i.pinimg.com/736x/6f/54/3f/6f543f6fa37717842787a2c002ff19ed.jpg" alt="sedekah" width="300" height="300">
+            <br>
+            <p>Ramadan adalah bulan penuh kebaikan. Berbagi makanan dan bersedekah kepada sesama membuat hati lebih bersih dan membawa kebahagiaan bagi banyak orang.</p>
+        </div>
+    </div>
+
+
+    <section class="Timetable" data-aos="zoom-in-up" id="timetable">
+         <div class="lantern left">🏮</div>
+    <div class="lantern right">🏮</div>
+
+    <div class="hh">
+        <h1>Jadwal Sholat Ramadan</h1>
+        <p class="subtitle">1447 H / 2026 M - Kota Jakarta (WIB)</p>
+        
+        <div class="loader" id="loader"></div>
+
+        <div class="table-wrapper">
+            <table id="jadwalTable">
+                <thead>
+                    <tr>
+                        <th>Tanggal</th>
+                        <th>Imsak</th>
+                        <th>Subuh</th>
+                        <th>Dzuhur</th>
+                        <th>Ashar</th>
+                        <th>Maghrib</th>
+                        <th>Isya</th>
+                        <th>Tarawih</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <!-- Data akan diisi oleh JavaScript -->
+                </tbody>
+            </table>
+        </div>
+         </div>
+    </section>
+        
+
+
+
+
+
+
+    <footer>
+        <p>by.jollyfiafeisty.web</p>
+    </footer>
+    </section>
+    <script src="prj.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init ({
+        once: false //true/false
+    })
+</script>
+</body>
+</html>
